@@ -1,0 +1,14 @@
+Files in this Octave Forge package are for analyzing setiQuest data.
+
+These files (mostly .m functions) were developed for GNU Octave, but will 
+probably work unmodified with Matlab or Scilab.  
+
+The functions are for analysis and processing of data from the Allen 
+Telescope Array (ATA), located in Hat Creek, CA.  
+
+We hope that over time these functions will grow to a useful set of SETI 
+processing capabilities. 
+
+For more information, visit setiQuest.org.
+
+Dave Hartzell, 7/26/10
