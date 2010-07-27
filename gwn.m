@@ -21,9 +21,7 @@ function Z0, Z1 = gwn ( blocksize, filename )
   for n = 1:blocksize
     u1 = (b1(n)+1)/256;
     u2 = (b2(n)+1)/256;
-    z0 = sqrt(-2*log(u1))*cos(2*pi*u2);
-    z1 = sqrt(-2*log(u1))*sin(2*pi*u2);
-    Z0(n) = z0;
-    Z1(n) = z1;
+    Z0(n) = sqrt(-2*log(u1))*cos(2*pi*u2);
+    Z1(n) = sqrt(-2*log(u1))*sin(2*pi*u2);
   endfor
 endfunction
