@@ -1,9 +1,9 @@
 % Generates Gaussian white noise from a uniform entropy source file.
 % by Anders Feder
 %
-% This function generates GWN, with a seed file, using the Box-Muller
-% transform. The two GWN vectors produced by the transform are interleaved to
-% create a single vector of size blocksize*2.
+% This function generates GWN, with a uniformly distributed seed file, using
+% the Box-Muller transform. The two GWN vectors produced by the transform are
+% interleaved to create a single vector of size blocksize*2.
 
 function Z = gwn ( blocksize, filename )
   persistent fd;
