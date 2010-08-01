@@ -2,7 +2,7 @@
 % applying a Hanning window (to clean-up the FFT).
 % The window length can be specified (win_length).
 
-function y = fft_avg2(x, win_length)
+function y = fft_avg(x, win_length)
 
   if (nargin == 1)
     win_length = 4096;
